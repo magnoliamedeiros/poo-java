@@ -40,4 +40,37 @@ public class Televisao {
 		}
 	}
 	
+	void avancarCanal() {
+		if(!ligado) {
+			System.out.println("Para mudar o canal, ligue a TV!");
+		}
+		else {
+			canal++;
+			System.out.println("Agora a TV "+marca+" esta no canal "+canal);
+		}
+	}
+	
+	// tem uma entrada
+	void sintonizarCanal(int novoCanal) {
+		if (!ligado) {
+			System.out.println("Para sintonizar, ligue a TV");
+		}
+		else {
+			if (novoCanal <= 0 || novoCanal > 999) {
+				System.out.println("Erro - canal invalido");
+			}
+			else {
+				canal = novoCanal;
+				System.out.println("Agora a TV "+marca+" esta no canal "+canal);
+			}
+		}
+	}
+	
+	// tem saida
+	int obterCanalSintonizado() {
+		
+		return canal;
+	}
+
+
 }

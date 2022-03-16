@@ -39,8 +39,10 @@ public class AppQueUsaTV {
 		// Agora podemos pegar o Objeto do tipo Televisao e exibir
 		// inconvamos o método exibirTV() na classe principal
 		tv1.exibirTV();
-		
+		tv1.sintonizarCanal(32);
 		tv1.desligar();
 		tv1.aumentarVolume();
+		
+		System.out.println("A TV foi desligada no canal "+tv1.obterCanalSintonizado());
 	}
 }
