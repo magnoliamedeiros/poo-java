@@ -9,7 +9,14 @@ public class Banco {
 		ContaBancaria conta;
 		conta = new ContaBancaria();
 		
+		// Antes de usar encapsulamento
 		// conta.nomeTitular = "Magnolia Medeiros";
+		// conta.cpf = "123.456.789-00";
+		// conta.tipo = 2;
+		// conta.numeroConta = 123456;
+		// conta.saldo = 1000.00;
+		
+		// Usando encapsulamento
 		conta.setNomeTitular("Magnolia Medeiros");
 		conta.setCpf("123.456.789-00");
 		conta.setTipo(2);
