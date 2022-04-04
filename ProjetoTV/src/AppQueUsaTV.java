@@ -7,7 +7,8 @@ public class AppQueUsaTV {
 		Televisao tv1, tv2;
 		
 		// Agora como estou tratando de classes, preciso DECLARAR e INSTANCIAR!!!
-		tv1 = new Televisao(); // Aqui solicita a VM memoria necessaria para armazenar
+		// Instanciei
+		tv1 = new Televisao(); // Aqui solicita a JVM memoria necessaria para armazenar essa estrutura
 		tv2 = new Televisao();
 		
 		// acessando os campos!
@@ -26,17 +27,17 @@ public class AppQueUsaTV {
 		tv2.volume = 3;
 		
 		// Exibir todas as informacoes da TV
-//		System.out.println("       \\/      ");
-//		System.out.println("+================+");
-//		System.out.println("| "+tv1.marca+"     |");
-//		System.out.println("| "+tv1.tamanho+" pol         |");
-//		System.out.println("| "+tv1.tamanho+" pol         |");
-//		System.out.println("+================+");
-//		System.out.println("  |           |   ");
+		// System.out.println("       \\/      ");
+		// System.out.println("+================+");
+		// System.out.println("| "+tv1.marca+"     |");
+		// System.out.println("| "+tv1.tamanho+" pol         |");
+		// System.out.println("| "+tv1.tamanho+" pol         |");
+		// System.out.println("+================+");
+		// System.out.println("  |           |   ");
 		
 		tv1.ligar();
 		tv1.aumentarVolume();
-		// Agora podemos pegar o Objeto do tipo Televisao e exibir
+		// Agora podemos pegar o Objeto do tipo Televisao e exibir()
 		// inconvamos o método exibirTV() na classe principal
 		tv1.exibirTV();
 		tv1.sintonizarCanal(32);
