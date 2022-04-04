@@ -10,6 +10,7 @@ public class Televisao {
 	int canal;
 	int volume;
 	boolean ligado;
+	
 	// Criamos o método exibirTV
 	// dentro dos ( ) sao as entradas que preciso e na frente da palavra 'exibirTV'o tipo de saida, que neste caso eh void
 	void exibirTV() { 
@@ -24,12 +25,10 @@ public class Televisao {
 		ligado = true;
 		System.out.println("A TV " + marca + " agora esta ligada!");
 	}
-	
 	void desligar() {
 		ligado = false;
 		System.out.println("A TV " + marca + " foi desliga!" );
 	}
-	
 	void aumentarVolume() {
 		if (!ligado) {
 			System.out.println("Por favor, antes ligue a TV "+marca);
@@ -39,9 +38,8 @@ public class Televisao {
 			System.out.println("Agora a TV "+marca+" esta no volume "+volume);
 		}
 	}
-	
 	void avancarCanal() {
-		if(!ligado) {
+		if (!ligado) {
 			System.out.println("Para mudar o canal, ligue a TV!");
 		}
 		else {
@@ -68,7 +66,6 @@ public class Televisao {
 	
 	// tem saida
 	int obterCanalSintonizado() {
-		
 		return canal;
 	}
 
