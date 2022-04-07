@@ -17,7 +17,7 @@ public class ContaBancaria {
 	//		return nomeTitular;
 	//	}
 	
-	// metodos
+	// metodos: exibirInfo, depositar, sacar
 	public String exibirInfo() {
 		String mensagem;
 		mensagem = "Conta Bancaria: "+numeroConta+
