@@ -8,16 +8,16 @@ public class Livro {
 	private int posicaoPrateleira;
 	private boolean disponivel;
 	
-	// métodos exibir, emprestar e devolver
+	// mï¿½todos exibir, emprestar e devolver
 	public String exibirInfo() {
 		String mensagem;
 		mensagem = "Livro: "+titulo+"\n" 
 					+"Autor: "+autor+"\n"
-					+"Ano de Publicação: "+anoPublicacao+"\n"
+					+"Ano de Publicacao: "+anoPublicacao+"\n"
 					+"Categoria: "+categoria+"\n"
 					+"Estante: "+posicaoEstante+"\n"
 					+"Prateleira: "+posicaoPrateleira+"\n"
-					+"Situação: " + ((disponivel)?"EMPRESTADO":"DISPONIVEL")+"\n"
+					+"Situacao: " + ((disponivel)?"EMPRESTADO":"DISPONIVEL")+"\n"
 					+"------------------------------"; // usando ternario
 		return mensagem;
 	}

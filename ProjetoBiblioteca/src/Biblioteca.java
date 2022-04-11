@@ -23,10 +23,10 @@ public class Biblioteca {
 	livro2.setPosicaoEstante(1);
 	livro2.setPosicaoPrateleira(4);
 	// -----------------------------
-	livro3.setTitulo("Código limpo-Habilidades práticas do Agile Software");
+	livro3.setTitulo("Codigo limpo-Habilidades praticas do Agile Software");
 	livro3.setAutor("Robert C. Martin");
 	livro3.setAnoPublicacao(2009);
-	livro3.setCategoria("Computição");
+	livro3.setCategoria("Computicao");
 	livro3.setPosicaoEstante(2);
 	livro3.setPosicaoPrateleira(4);
 	
